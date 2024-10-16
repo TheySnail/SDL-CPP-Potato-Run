@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Images">
+      <UniqueIdentifier>{59afca7f-407a-4c98-89c7-e0ab0b188592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{ba678c70-e0c1-46fc-9c3b-327947fec48b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteScroll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstacle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Game.h">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Temp.bmp">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="Background.bmp">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="Sprites\BackButton.bmp">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="Sprites\BackButtonHover.bmp">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="Sprites\backgroundall.bmp">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="Sprites\backgroundfloor.bmp">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="Sprites\backgroundskyl.bmp">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="Sprites\birdF1.bmp">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="Sprites\fork.bmp">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="Sprites\PlayButton.bmp">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="Sprites\PlayButtonHover.bmp">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="Sprites\potaodead.bmp">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="Sprites\PotatoF1.bmp">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="Sprites\PotatoF2.bmp">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="Sprites\QuitButton.bmp">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="Sprites\QuitButtonHover.bmp">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="Sprites\rulebackground.bmp">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="Sprites\RulesButton.bmp">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="Sprites\RulesButtonHover.bmp">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="Sprites\TempPlayer.bmp">
+      <Filter>Images</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteScroll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Obstacle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Sound\background.mp3">
+      <Filter>Sound</Filter>
+    </Media>
+    <Media Include="Sound\BackgroundMusic.mp3">
+      <Filter>Sound</Filter>
+    </Media>
+    <Media Include="Sound\DeathSound.mp3">
+      <Filter>Sound</Filter>
+    </Media>
+    <Media Include="Sound\JumpSound.mp3">
+      <Filter>Sound</Filter>
+    </Media>
+    <Media Include="Sound\ScoreIncrease.mp3">
+      <Filter>Sound</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
